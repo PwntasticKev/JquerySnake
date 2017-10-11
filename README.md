@@ -37,7 +37,7 @@ We're going to use a 20x20 pixel window, each pixel will be a separate div. Each
 
 Instead of typing out 400 divs with different ids into our html, let's let javascript do that for us. We're going to use jQuery .append to fill up our window with pixels.
 
- * Inside your initiateGameWindow function, create 20 rows of 20 div (with javascript/jquery). Be sure to give each div a class and a unique id that you can reference the rows and columns with later. This is an example of what a div would look like, obviously yours will have numbers for row and col:
+ * Inside your initiateGameWindow function, create 20 rows of 20 divs (with javascript/jquery). Be sure to give each div a class and a unique id that you can reference the rows and columns with later. This is an example of what a div would look like, obviously yours will have numbers for row and col:
 ```
 <div class='cell-square' id='cell_(row#)_(column#)'></div>
 ```
@@ -120,7 +120,7 @@ food = '_' + fRow + '_' + fCol;
 ```
 ### Initiate Game Window
 ####
-We've got all the pieces we need to initiate the game window. We created a div in our html that we populated with 400 pixel divs, styles those divs to fit in the window, added the snake, create a random food block generator, and have our initiateGameWindow function set to invoke the food block generator at the end. There's only one thing left to do for this step:
+We've got all the pieces we need to initiate the game window. We created a div in our html that we populated with 400 pixel divs, styled those divs to fit in the window, added the snake, create a random food block generator, and have our initiateGameWindow function set to invoke the food block generator at the end. There's only one thing left to do for this step:
 
 * Invoke initiateGameWindow
 * Open your snake.html file, make sure everything worked, check for errors.
